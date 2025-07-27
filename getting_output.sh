@@ -8,7 +8,7 @@ INPUT_DIR="$PWD/quickstart-testdata"
 docker run --gpus 1 \
   -v "${INPUT_DIR}":"/input" \
   -v "${OUTPUT_DIR}":"/output" \
-  google/deepvariant:1.9.0 \
+  google/deepvariant:1.9.0-gpu \
   /opt/deepvariant/bin/run_deepvariant \
   --model_type=WGS \
   --vcf_stats_report=true \
