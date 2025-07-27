@@ -1,3 +1,5 @@
+#!/bin/bash
+
 INPUT_DIR="${PWD}/quickstart-testdata"
 DATA_HTTP_DIR="https://storage.googleapis.com/deepvariant/quickstart-testdata"
 
